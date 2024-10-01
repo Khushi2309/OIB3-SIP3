@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #140a1f, #2575fc); /* Gradient Background */
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2575fc; /* Title color matching gradient */
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2575fc;
+}
+
+.output-section p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+.output-section span {
+    font-weight: bold;
+    color: #2575fc;
+}
